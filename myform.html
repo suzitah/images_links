@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FORMS IN HTML</title>
+</head>
+<body>
+    <h1>Students Registration Form</h1>
+    <FORM action="" method="post">
+        <label for ="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+        <br>
+        <label for ="gender">Gender:</label>
+        <input type="radio" name="gender" id="gender" Value="Male" required>
+        <label for ="gender">Male:</label>
+        <input type="radio" name="gender" id="gender" Value="Female" required>
+        <label for ="gender">Female:</label>
+        <label for ="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob" Value="" required>
+        <br>
+        <Label for="adress">Address:</Label>
+        <textarea name="adress" id="adress" rows="5" cols="20" required>
+        Type your permanent address
+        </textarea>
+        <label for="phone">Phone: </label> 
+        <input type="tel"name="phone" placeholder="0700123456" required>
+    
+        <label for="email">Email Address: </label> 
+        <input type="email"name="email" value="email" placeholder="john@abc.com" required>
+        <br>
+        <label for="courses">Select you Course:</label>
+        <select id="courses" name="courses" required>
+            <option value=""></option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Engineering">Engineering</option>
+            <option value="BCOM">BCOM</option>
+            <option value="Actuarial Science">Actuarial Science</option>
+        </select>
+        <br>
+        
+        <button type="submit"> Register </button>
+        <button type="reset"> Cancel Registration:</button>
+    </FORM>
+</body>
